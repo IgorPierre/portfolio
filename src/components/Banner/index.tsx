@@ -5,11 +5,16 @@ export const Banner = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
 
     h1 {
         font-family: "Vampiro One", system-ui;
         font-size: 124px;
+        background: linear-gradient(to right, #33B5C6, #3A36BF);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 
     h2 {
