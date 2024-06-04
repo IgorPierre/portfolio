@@ -1,5 +1,4 @@
 import './App.css'
-import { Banner } from './components/banner'
 import { ContentSection } from './components/content-section'
 import { 
   SiTypescript,
@@ -11,6 +10,7 @@ import {
 import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Copyright } from './components/copyright';
+import { Banner } from './components/banner';
 
 function App() {
   return (
