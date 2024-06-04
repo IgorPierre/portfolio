@@ -5,9 +5,11 @@ import {
   SiTypescript,
   SiTailwindcss, 
   SiReact, 
-  SiJavascript 
+  SiJavascript,
+  SiInstagram
 } from "react-icons/si";
-import { FaSass, FaLaravel, FaPhp } from "react-icons/fa";
+import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 function App() {
   return (
@@ -30,6 +32,21 @@ function App() {
           <FaSass />
           <FaPhp />
           <FaLaravel />
+        </div>
+      </ContentSection>
+      <ContentSection $left>
+        <div>
+          <h1>PROJETOS</h1>
+          <p>a caminho...</p>
+        </div>
+      </ContentSection>
+      <ContentSection $contact>
+        <div>
+          <h1>CONTATOS</h1>
+          <FaGithub />
+          <FaLinkedin />
+          <HiOutlineMail />
+          <SiInstagram />
         </div>
       </ContentSection>
     </>
