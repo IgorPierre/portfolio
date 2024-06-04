@@ -20,7 +20,7 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
     padding: 0 160px;
 
     h1 {
-        font-size: 150px;
+        font-size: 130px;
         font-weight: bold;
         text-transform: uppercase;
         color: var(--white);
