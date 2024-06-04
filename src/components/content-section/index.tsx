@@ -16,7 +16,7 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 56vh;
+    height: 60vh;
     padding: 0 160px;
 
     h1 {
