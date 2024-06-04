@@ -99,6 +99,11 @@ Error generating stack: `+i.message+`
         font-size: 40px;
       }
 
+      div {
+        gap: 1rem;
+        padding: 0 1.5rem;
+      }
+
       div>svg {
         width: 20px;
       }
