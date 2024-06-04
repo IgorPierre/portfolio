@@ -1,5 +1,5 @@
 import './App.css'
-import { Banner } from './components/Banner'
+import { Banner } from './components/banner'
 import { ContentSection } from './components/content-section'
 import { 
   SiTypescript,
@@ -10,6 +10,7 @@ import {
 } from "react-icons/si";
 import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { Copyright } from './components/copyright';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <SiInstagram />
         </div>
       </ContentSection>
+      <Copyright>Powered by Igor Pierre</Copyright>
     </>
   )
 }
