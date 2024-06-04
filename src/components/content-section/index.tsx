@@ -63,6 +63,11 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
         font-size: 40px;
       }
 
+      div {
+        gap: 1rem;
+        padding: 0 1.5rem;
+      }
+
       div>svg {
         width: 20px;
       }
