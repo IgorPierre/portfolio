@@ -35,4 +35,16 @@ export const Banner = styled.section`
         font-size: 36px;
         font-weight: normal;
     }
+
+    @media (max-width: 768px) {
+      height: 40vh;
+
+      h1 {
+        font-size: 50px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
 `;

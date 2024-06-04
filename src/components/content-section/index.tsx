@@ -54,4 +54,17 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
     div>svg:hover {
         box-shadow: 0 8px 0 -5px #33B5C6;
     } 
+
+    @media (max-width: 768px) {
+      padding: 0;
+      height: 34vh;
+
+      h1 {
+        font-size: 40px;
+      }
+
+      div>svg {
+        width: 20px;
+      }
+    }
 `;
