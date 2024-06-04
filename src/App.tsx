@@ -10,7 +10,7 @@ import {
 import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Copyright } from './components/copyright';
-import { Banner } from './components/banner';
+import { Banner } from './components/Banner';
 
 function App() {
   return (
