@@ -157,7 +157,7 @@ Error generating stack: `+i.message+`
       }
 
       h2 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: normal;
       }
     }
@@ -172,6 +172,10 @@ Error generating stack: `+i.message+`
     position: relative;
     padding: 200px 0;
     gap: 4rem;
+
+    @media (max-width: 768px) {
+        padding: 140px 0;
+    }
 `,a2=ft.div`
     display: flex;
     justify-content: space-around;
@@ -187,6 +191,17 @@ Error generating stack: `+i.message+`
         object-fit: cover;
         border-radius: .5rem;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+        
+        img {
+            width: 90%;
+            object-fit: contain;
+            height: auto;
+        }
     }
 `,c2=ft.div`
     display: flex;
@@ -204,6 +219,14 @@ Error generating stack: `+i.message+`
         font-size: .8rem;
         font-weight: 400;
         color: #5A5A5A;
+    }
+
+    @media (max-width: 768px) {
+        width: 90%;
+
+        h3 {
+            font-size: 1rem;
+        }
     }
 `,f2=ft.div`
     display: flex;
