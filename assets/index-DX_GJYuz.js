@@ -45,7 +45,7 @@ Error generating stack: `+i.message+`
   }
   100% {
     transform: translateX(0);
-    opacity: .5;
+    opacity: .6;
   }
 `,Zi=gi.section`
     display: flex;
