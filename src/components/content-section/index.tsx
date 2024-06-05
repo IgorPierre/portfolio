@@ -11,26 +11,12 @@ const slideInFromLeft = keyframes`
   }
 `;
 
-export const ContentSection = styled.section<{ $left?: boolean; $contact?: boolean;}>`
+export const ContentSection = styled.section<{ $contact?: boolean; }>`
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 60vh;
-    padding: 0 160px;
-
-    h1 {
-        font-size: 130px;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-family: "Outfit", sans-serif;
-        color: var(--white);
-        position: absolute;
-        z-index: 0;
-        ${props => props.$left ? "left: 30px" : "right: 30px"};
-        top: 4rem;
-        animation: ${slideInFromLeft} 1s ease-out forwards;
-    }
 
     div {
         display: flex;
@@ -60,10 +46,6 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
       padding: 0;
       height: 34vh;
 
-      h1 {
-        font-size: 40px;
-      }
-
       div {
         gap: 1rem;
         padding: 0 1.5rem;
@@ -72,5 +54,22 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
       div>svg {
         width: 20px;
       }
+    }
+`;
+
+export const BackgroundTitle = styled.h1<{ $left?: boolean; }>`
+    font-size: 130px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Outfit", sans-serif;
+    color: var(--white);
+    position: absolute;
+    z-index: 0;
+    ${props => props.$left ? "left: 30px" : "right: 30px"};
+    top: 4rem;
+    animation: ${slideInFromLeft} 1s ease-out forwards;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
     }
 `;

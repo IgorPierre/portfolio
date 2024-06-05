@@ -1,5 +1,5 @@
 import './App.css'
-import { ContentSection } from './components/content-section'
+import { BackgroundTitle, ContentSection } from './components/content-section'
 import { 
   SiTypescript,
   SiTailwindcss, 
@@ -11,6 +11,7 @@ import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Copyright } from './components/copyright';
 import { Banner } from './components/Banner';
+import { ProjectsArea } from './components/ProjectsArea';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       </Banner>
       <ContentSection>
         <div>
-          <h1>TECNOLOGIAS</h1>
+          <BackgroundTitle>TECNOLOGIAS</BackgroundTitle>
           <SiJavascript />
           <SiTypescript />
           <SiReact />
@@ -35,15 +36,10 @@ function App() {
           <FaLaravel />
         </div>
       </ContentSection>
-      <ContentSection $left>
-        <div>
-          <h1>PROJETOS</h1>
-          <p>a caminho...</p>
-        </div>
-      </ContentSection>
+      <ProjectsArea />
       <ContentSection $contact>
         <div>
-          <h1>CONTATOS</h1>
+          <BackgroundTitle>CONTATOS</BackgroundTitle>
           <FaGithub />
           <FaLinkedin />
           <HiOutlineMail />
