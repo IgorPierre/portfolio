@@ -7,7 +7,7 @@ const slideInFromLeft = keyframes`
   }
   100% {
     transform: translateX(0);
-    opacity: .5;
+    opacity: .6;
   }
 `;
 
