@@ -32,8 +32,9 @@ export const Banner = styled.section`
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 30px;
         font-weight: normal;
+        line-height: 0;
     }
 
     @media (max-width: 768px) {
@@ -44,7 +45,8 @@ export const Banner = styled.section`
       }
 
       h2 {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: normal;
       }
     }
 `;

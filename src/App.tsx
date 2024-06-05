@@ -11,8 +11,6 @@ import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Copyright } from './components/copyright';
 import { Banner } from './components/Banner';
-import { ProjectCard, ProjectDescription } from './components/ProjectCard';
-import catalogo from '../public/images/catalogo.png';
 
 function App() {
   return (
@@ -40,16 +38,7 @@ function App() {
       <ContentSection $left $projects>
         <div>
           <h1>PROJETOS</h1>
-          <ProjectCard>
-            <ProjectDescription>
-              <h3>Catálogo Interativo</h3>
-              <p>
-                Catálogo virtual desenvolvido para a loja Ave-Maria. Neste projeto o usuário
-                consegue adicionar intens ao carrinho e finalizar a compra pelo WhatsApp
-              </p>
-            </ProjectDescription>
-            <img src={catalogo} alt="imagem do projeto" />
-          </ProjectCard>
+          <p>a caminho...</p>
         </div>
       </ContentSection>
       <ContentSection $contact>

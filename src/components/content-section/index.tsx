@@ -23,6 +23,7 @@ export const ContentSection = styled.section<{ $left?: boolean; $contact?: boole
         font-size: 130px;
         font-weight: bold;
         text-transform: uppercase;
+        font-family: "Outfit", sans-serif;
         color: var(--white);
         position: absolute;
         z-index: 0;
