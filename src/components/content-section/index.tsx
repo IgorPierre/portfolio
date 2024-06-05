@@ -11,12 +11,12 @@ const slideInFromLeft = keyframes`
   }
 `;
 
-export const ContentSection = styled.section<{ $left?: boolean; $contact?: boolean; $projects?: boolean; }>`
+export const ContentSection = styled.section<{ $left?: boolean; $contact?: boolean;}>`
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    ${props => props.$projects ? "height: auto;" : "height: 60vh;"};
+    height: 60vh;
     padding: 0 160px;
 
     h1 {

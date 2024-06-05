@@ -35,7 +35,7 @@ function App() {
           <FaLaravel />
         </div>
       </ContentSection>
-      <ContentSection $left $projects>
+      <ContentSection $left>
         <div>
           <h1>PROJETOS</h1>
           <p>a caminho...</p>
