@@ -4,6 +4,7 @@ import { ProjectCard, ProjectInfo, ProjectTecnologies, ProjectsSection } from '.
 import catalogoImg from '../../../public/images/catalogo.png';
 import { SiJavascript } from "react-icons/si";
 import { SiLaravel } from "react-icons/si";
+import { DefaultButton } from '../Button';
 
 export const ProjectsArea = () => {
   return (
@@ -21,6 +22,7 @@ export const ProjectsArea = () => {
                 <SiJavascript />
                 <SiLaravel />
               </ProjectTecnologies>
+              <DefaultButton link='#' children='Visualizar'/>
             </ProjectInfo>
             <img src={catalogoImg} alt="imagem do projeto" />
           </ProjectCard>
