@@ -45,7 +45,7 @@ export const Banner = styled.section`
       }
 
       h2 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: normal;
       }
     }

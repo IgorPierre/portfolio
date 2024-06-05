@@ -11,6 +11,10 @@ export const ProjectsSection = styled.section`
     position: relative;
     padding: 200px 0;
     gap: 4rem;
+
+    @media (max-width: 768px) {
+        padding: 140px 0;
+    }
 `;
 
 export const ProjectCard = styled.div`
@@ -28,6 +32,17 @@ export const ProjectCard = styled.div`
         object-fit: cover;
         border-radius: .5rem;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+        
+        img {
+            width: 90%;
+            object-fit: contain;
+            height: auto;
+        }
     }
 `;
 
@@ -47,6 +62,14 @@ export const ProjectInfo = styled.div`
         font-size: .8rem;
         font-weight: 400;
         color: #5A5A5A;
+    }
+
+    @media (max-width: 768px) {
+        width: 90%;
+
+        h3 {
+            font-size: 1rem;
+        }
     }
 `;
 
