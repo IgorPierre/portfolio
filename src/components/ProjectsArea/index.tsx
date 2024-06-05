@@ -22,7 +22,7 @@ export const ProjectsArea = () => {
                 <SiJavascript />
                 <SiLaravel />
               </ProjectTecnologies>
-              <DefaultButton link='#' children='Visualizar'/>
+              <DefaultButton link='https://github.com/IgorPierre/catalogo' children='Visualizar'/>
             </ProjectInfo>
             <img src={catalogoImg} alt="imagem do projeto" />
           </ProjectCard>
