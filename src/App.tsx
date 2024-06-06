@@ -40,10 +40,10 @@ function App() {
       <ContentSection $contact>
         <div>
           <BackgroundTitle>CONTATOS</BackgroundTitle>
-          <FaGithub />
-          <FaLinkedin />
-          <HiOutlineMail />
-          <SiInstagram />
+          <a href="https://github.com/IgorPierre"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/igorpierre/"><FaLinkedin /></a>
+          <a href="mailto:igor.pierre45@gmail.com"><HiOutlineMail /></a>
+          <a href="https://www.instagram.com/igor.pierre7/"><SiInstagram /></a>
         </div>
       </ContentSection>
       <Copyright>Powered by Igor Pierre</Copyright>

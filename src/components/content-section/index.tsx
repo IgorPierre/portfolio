@@ -29,7 +29,11 @@ export const ContentSection = styled.section<{ $contact?: boolean; }>`
         position: relative;
     }
 
-    div>svg {
+    div>a{
+      z-index: 1;
+    }
+
+    div svg {
         width: 80px;
         height: auto;
         z-index: 1;
@@ -38,7 +42,7 @@ export const ContentSection = styled.section<{ $contact?: boolean; }>`
         transition: box-shadow .4s ;
     }
 
-    div>svg:hover {
+    div svg:hover {
         box-shadow: 0 8px 0 -5px #33B5C6;
     } 
 
@@ -51,7 +55,7 @@ export const ContentSection = styled.section<{ $contact?: boolean; }>`
         padding: 0 1.5rem;
       }
 
-      div>svg {
+      div svg {
         width: 20px;
       }
     }
