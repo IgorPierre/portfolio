@@ -32,7 +32,7 @@ export const ProjectsArea = () => {
           />
           <ProjectCard
             title="Site Acaraú Valley"
-            description="Fruto da minha atuação na empresa Liading Jr., onde tive a oportunidade, juntamente com os outros membros da equipe, de implementar o site da startup Acaraú Valley."
+            description="Fruto da minha atuação na empresa Loading Jr., onde tive a oportunidade, juntamente com os outros membros da equipe, de implementar o site da startup Acaraú Valley."
             technologies={[SiTypescript, SiReact, SiTailwindcss]}
             image={acarauImg}
             githubLink="https://site-acarau-valley-beta.vercel.app/"
