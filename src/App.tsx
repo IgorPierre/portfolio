@@ -46,7 +46,9 @@ function App() {
           <a href="https://www.instagram.com/igor.pierre7/"><SiInstagram /></a>
         </div>
       </ContentSection>
-      <Copyright>Powered by Igor Pierre</Copyright>
+      <Copyright>
+        <small>Powered by Igor Pierre</small>
+      </Copyright>
     </>
   )
 }

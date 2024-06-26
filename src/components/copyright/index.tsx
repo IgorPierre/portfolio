@@ -8,4 +8,8 @@ export const Copyright = styled.section`
     align-items: center;
     width: 100%;
     padding: 0.3em;
+
+    small {
+        font-size: .7rem;
+    }
 `;
