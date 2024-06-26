@@ -21,7 +21,7 @@ function App() {
           Igor Pierre
         </h1>
         <h2>
-          Desenvolvedor Front-End
+          Desenvolvedor Web
         </h2>
       </Banner>
       <ContentSection>
