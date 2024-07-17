@@ -5,6 +5,8 @@ import { DefaultButton } from '../Button';
 import catalogoImg from '../../../public/images/catalogo.png';
 import acarauImg from '../../../public/images/acarau.png';
 import blog from '../../../public/images/blog.png';
+import credigi from '../../../public/images/credigi.png';
+
 
 import { 
   SiTypescript,
@@ -31,11 +33,11 @@ export const ProjectsArea = () => {
             githubLink="https://github.com/IgorPierre/catalogo"
           />
           <ProjectCard
-            title="Site Acaraú Valley"
-            description="Fruto da minha atuação na empresa Loading Jr., onde tive a oportunidade, juntamente com os outros membros da equipe, de implementar o site da startup Acaraú Valley."
-            technologies={[SiTypescript, SiReact, SiTailwindcss]}
-            image={acarauImg}
-            githubLink="https://site-acarau-valley-beta.vercel.app/"
+            title="Crédigi Promotora"
+            description="Site institucional completo desenvolvido para a promotora de crédito Crédigi."
+            technologies={[FaWordpress]}
+            image={credigi}
+            githubLink="http://credigipromotora.com.br/"
             $imageFirst
           />
           <ProjectCard
@@ -44,6 +46,14 @@ export const ProjectsArea = () => {
             technologies={[FaWordpress, SiHtml5, SiCss3]}
             image={blog}
             githubLink="https://blog.lifecentershop.com.br/"
+          />
+          <ProjectCard
+            title="Site Acaraú Valley"
+            description="Fruto da minha atuação na empresa Loading Jr., onde tive a oportunidade, juntamente com os outros membros da equipe, de implementar o site da startup Acaraú Valley."
+            technologies={[SiTypescript, SiReact, SiTailwindcss]}
+            image={acarauImg}
+            githubLink="https://site-acarau-valley-beta.vercel.app/"
+            $imageFirst
           />
         </ProjectsSection>
     </section>
