@@ -31,7 +31,7 @@ export const ProjectsArea = () => {
             description="Atuei no desenvolvimento da plataforma LifeCenter Shop, um marketplace de saúde e bem-estar, onde aperfeiçoei minhas habilidades em PHP, Laravel e JavaScript. Contribuí na criação de interfaces, models e controllers, consolidando a prática da padrão MVC."
             technologies={[SiJavascript, SiLaravel, SiPhp]}
             image={lifecentershop}
-            githubLink="https://github.com/IgorPierre/catalogo"
+            githubLink="https://lifecentershop.com.br/"
           />
           <ProjectCard
             title="Crédigi Promotora"
