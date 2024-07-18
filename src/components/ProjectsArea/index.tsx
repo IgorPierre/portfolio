@@ -18,7 +18,7 @@ import {
   SiCss3,
 
 } from "react-icons/si";
-import { FaWordpress } from "react-icons/fa";
+import { FaWordpress, FaElementor } from "react-icons/fa";
 
 export const ProjectsArea = () => {
   return (
@@ -35,7 +35,7 @@ export const ProjectsArea = () => {
           <ProjectCard
             title="Crédigi Promotora"
             description="Site institucional completo desenvolvido para a promotora de crédito Crédigi."
-            technologies={[FaWordpress]}
+            technologies={[FaWordpress, FaElementor]}
             image={credigi}
             githubLink="http://credigipromotora.com.br/"
             $imageFirst
