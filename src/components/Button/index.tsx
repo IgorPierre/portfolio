@@ -4,7 +4,7 @@ export const DefaultButton = (props: {
     link: string | undefined;
     children: string;
   }) => (
-    <Button href={props.link}>
+    <Button href={props.link} target="_blank">
       {props.children}
     </Button>
   );
