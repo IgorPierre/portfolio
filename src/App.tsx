@@ -4,10 +4,8 @@ import {
   SiTypescript,
   SiTailwindcss, 
   SiReact, 
-  SiJavascript,
-  SiInstagram
 } from "react-icons/si";
-import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin, FaDocker, FaAws} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Copyright } from './components/copyright';
 import { Banner } from './components/Banner';
@@ -21,29 +19,59 @@ function App() {
           Igor Pierre
         </h1>
         <h2>
-          Desenvolvedor Web
+          Desenvolvedor Full Stack
         </h2>
       </Banner>
       <ContentSection>
-        <div>
+        <div className="content">
           <BackgroundTitle>TECNOLOGIAS</BackgroundTitle>
-          <SiJavascript />
-          <SiTypescript />
-          <SiReact />
-          <SiTailwindcss />
-          <FaSass />
-          <FaPhp />
-          <FaLaravel />
+          <div className="item">
+            <SiTypescript />
+            Typescript
+          </div>
+          <div className="item">
+            <SiReact />
+            React
+          </div>
+          <div className="item">
+            <SiTailwindcss />
+            Tailwindcss
+          </div>
+          <div className="item">
+            <FaSass />
+            Sass
+          </div>
+          <div className="item">
+            <FaPhp />
+            Php
+          </div>
+          <div className="item">
+            <FaLaravel />
+            Laravel
+          </div>
+          <div className="item">
+            <FaDocker />
+            Docker
+          </div>
+          <div className="item">
+            <FaAws />
+            AWS
+          </div>
         </div>
       </ContentSection>
       <ProjectsArea />
       <ContentSection $contact>
-        <div>
+        <div className="content">
           <BackgroundTitle>CONTATOS</BackgroundTitle>
-          <a href="https://github.com/IgorPierre"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/igorpierre/"><FaLinkedin /></a>
-          <a href="mailto:igor.pierre45@gmail.com"><HiOutlineMail /></a>
-          <a href="https://www.instagram.com/igor.pierre7/"><SiInstagram /></a>
+          <div className="item">
+            <a href="https://github.com/IgorPierre"><FaGithub /></a>
+          </div>
+          <div className="item">
+            <a href="https://www.linkedin.com/in/igorpierre/"><FaLinkedin /></a>
+          </div>
+          <div className="item">
+            <a href="mailto:igor.pierre45@gmail.com"><HiOutlineMail /></a>
+          </div>
         </div>
       </ContentSection>
       <Copyright>

@@ -18,7 +18,7 @@ export const ContentSection = styled.section<{ $contact?: boolean; }>`
     width: 100%;
     height: 60vh;
 
-    div {
+    .content {
         display: flex;
         width: 100%;
         height: 100%;
@@ -29,22 +29,30 @@ export const ContentSection = styled.section<{ $contact?: boolean; }>`
         position: relative;
     }
 
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: .5rem;
+      gap: 0.5rem;
+    }
+
+    .item:hover {
+      box-shadow: 0 8px 0 -5px #33B5C6;
+    } 
+
     div>a{
       z-index: 1;
     }
 
     div svg {
-        width: 80px;
+        width: 60px;
         height: auto;
         z-index: 1;
         border-radius: 5px;
         color: #242424;
         transition: box-shadow .4s ;
     }
-
-    div svg:hover {
-        box-shadow: 0 8px 0 -5px #33B5C6;
-    } 
 
     @media (max-width: 768px) {
       padding: 0;

@@ -2,6 +2,7 @@ import { BackgroundTitle } from '../content-section';
 import { ProjectCardWrapper, ProjectInfo, ProjectTecnologies, ProjectsSection } from './styles';
 import { DefaultButton } from '../Button';
 
+import senhalivre from '../../../public/images/senhalivre.png';
 import lifecentershop from '../../../public/images/lifecentershop.png';
 import acarauImg from '../../../public/images/acarau.png';
 import blog from '../../../public/images/blog.png';
@@ -19,13 +20,21 @@ import {
   SiPhp,
 
 } from "react-icons/si";
-import { FaWordpress, FaElementor } from "react-icons/fa";
+import { FaWordpress, FaElementor, FaDocker } from "react-icons/fa";
 
 export const ProjectsArea = () => {
   return (
     <section>
         <ProjectsSection>
           <BackgroundTitle $left>PROJETOS</BackgroundTitle>
+          <ProjectCard
+            title="Senhalivre"
+            description="Atuei no desenvolvimento da plataforma Senhalivre, um sistema de gestão de Wi-Fi Marketing voltado para potencializar a comunicação entre estabelecimentos e seus clientes. Nesse projeto, participei ativamente de todas as etapas — do planejamento à implementação, gestão de equipe e deploy. Essa experiência ampliou minhas habilidades técnicas e de colaboração, proporcionando uma visão completa do ciclo de desenvolvimento de software."
+            technologies={[SiTypescript, SiLaravel, SiPhp, FaDocker]}
+            image={senhalivre}
+            githubLink="https://senhalivre.com.br/"
+            $imageFirst
+          />
           <ProjectCard
             title="LifeCenter Shop"
             description="Atuei no desenvolvimento da plataforma LifeCenter Shop, um marketplace de saúde e bem-estar, onde aperfeiçoei minhas habilidades em PHP, Laravel e JavaScript. Contribuí na criação de interfaces, models e controllers, consolidando a prática da padrão MVC."
