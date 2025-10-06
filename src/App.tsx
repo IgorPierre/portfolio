@@ -4,8 +4,6 @@ import {
   SiTypescript,
   SiTailwindcss, 
   SiReact, 
-  SiJavascript,
-  SiInstagram
 } from "react-icons/si";
 import { FaSass, FaLaravel, FaPhp, FaGithub, FaLinkedin, FaDocker, FaAws} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
