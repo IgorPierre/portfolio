@@ -1,11 +1,13 @@
-import { Button } from "./styles";
+import type { AnchorHTMLAttributes, ReactNode } from 'react';
+import { StyledButton } from './styles';
 
-export const DefaultButton = (props: {
-    link: string | undefined;
-    children: string;
-  }) => (
-    <Button href={props.link} target="_blank">
-      {props.children}
-    </Button>
-  );
-  
+interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+  href: string;
+  children: ReactNode;
+}
+
+export const Button = ({ href, children, ...props }: ButtonProps) => (
+  <StyledButton href={href} target="_blank" rel="noopener noreferrer" {...props}>
+    {children}
+  </StyledButton>
+);
