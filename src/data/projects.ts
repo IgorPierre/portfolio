@@ -25,7 +25,7 @@ export const projects: Project[] = [
       { icon: FaDocker, label: 'Docker' },
     ],
     image: assetUrl('images/teamops.png'),
-    link: 'https://github.com/team-ops/team-ops',
+    link: 'https://team-ops-website.vercel.app/',
     imageFirst: true,
   },
   {
