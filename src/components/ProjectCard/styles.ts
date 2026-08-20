@@ -17,20 +17,25 @@ export const Card = styled.article<{ $imageFirst?: boolean }>`
   }
 `;
 
-export const Image = styled.img<{ $imageFirst?: boolean }>`
+export const ImageLink = styled.a<{ $imageFirst?: boolean }>`
   display: block;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transition: transform 0.4s ease-in-out;
   flex-shrink: 0;
   order: 1;
   align-self: center;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
 
   &:hover {
     transform: scale(1.03);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 
   ${props => !props.$imageFirst && css`
@@ -40,7 +45,9 @@ export const Image = styled.img<{ $imageFirst?: boolean }>`
   `}
 
   ${media.md} {
-    max-width: 100%;
+    img {
+      max-width: 100%;
+    }
 
     &:hover {
       transform: none;

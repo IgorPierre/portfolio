@@ -7,12 +7,27 @@ import {
   SiHtml5,
   SiCss3,
   SiPhp,
+  SiGo,
 } from 'react-icons/si';
 import { FaWordpress, FaElementor, FaDocker } from 'react-icons/fa';
 import type { Project } from '../types';
 import { assetUrl } from '../utils/assetUrl';
 
 export const projects: Project[] = [
+  {
+    title: 'Team-Ops',
+    description:
+      'Quadro Kanban self-hosted para times de engenharia e agentes de IA. Humanos usam o board visual; agentes usam HTTP API e MCP para criar, mover e documentar o trabalho. Desenvolvi o produto do zero — API em Go, app em TypeScript, CLI de setup e skill para Cursor — com o objetivo de dar aos coding agents um lugar de primeira classe no fluxo de trabalho.',
+    technologies: [
+      { icon: SiTypescript, label: 'TypeScript' },
+      { icon: SiReact, label: 'React' },
+      { icon: SiGo, label: 'Go' },
+      { icon: FaDocker, label: 'Docker' },
+    ],
+    image: assetUrl('images/teamops.png'),
+    link: 'https://team-ops-website.vercel.app/',
+    imageFirst: true,
+  },
   {
     title: 'DuinoFlow',
     description:
@@ -25,7 +40,6 @@ export const projects: Project[] = [
     ],
     image: assetUrl('images/duinoflow.png'),
     link: 'https://duinoflow.com.br/',
-    imageFirst: true,
   },
   {
     title: 'Senhalivre',
@@ -39,6 +53,7 @@ export const projects: Project[] = [
     ],
     image: assetUrl('images/senhalivre.png'),
     link: 'https://senhalivre.com/',
+    imageFirst: true,
   },
   {
     title: 'LifeCenter Shop',
@@ -51,7 +66,6 @@ export const projects: Project[] = [
     ],
     image: assetUrl('images/lifecentershop.png'),
     link: 'https://lifecentershop.com.br/',
-    imageFirst: true,
   },
   {
     title: 'Site Acaraú Valley',
@@ -64,6 +78,7 @@ export const projects: Project[] = [
     ],
     image: assetUrl('images/acarau.png'),
     link: 'https://site-acarau-valley-beta.vercel.app/',
+    imageFirst: true,
   },
   {
     title: 'Crédigi Promotora',
@@ -75,7 +90,6 @@ export const projects: Project[] = [
     ],
     image: assetUrl('images/credigi.png'),
     link: 'http://credigipromotora.com.br/',
-    imageFirst: true,
   },
   {
     title: 'LifeCenter Blog',
@@ -88,5 +102,6 @@ export const projects: Project[] = [
     ],
     image: assetUrl('images/blog.png'),
     link: 'https://blog.lifecentershop.com.br/',
+    imageFirst: true,
   },
 ];
